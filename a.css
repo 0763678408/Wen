@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --search-color:#ebebeb;
+    --primary-font : 'Poppins', sans-serif;
+    --login-primary-color : #fff;
+    --shadow-header-color:#dbdbdb;
+    --background-primary-color: #b89a16;
+    --background-secondary-color: #b89a16;
+    --darker-background-secondary-color: #000000;
+}
+
+html {
+    font-family: var(--primary-font);
+    font-size: 14px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(145deg,#0d0ab3,#f0f183,#f70606 );
+}
+
+/* Start Left Main Login */
+
+.login {
+    display: flex;
+    width: 82%;
+    height: 85%;
+    background-color: var(--login-primary-color);
+}
+
+.login .login__form-container {
+    background-color: var(--login-primary-color);
+    width: 50%;
+    height: 100%;
+}
+
+.login__form-container .login__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+
+}
+
+.login__form .login__title {
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+
+
+.login__form button {
+    line-height: 12px;
+    font-size: large;
+    background-color: var(--background-secondary-color);
+    color: var(--login-primary-color);
+    border: 0;
+    margin-top: 30px;
+}
+
+.login__form button:hover {
+    cursor: pointer;
+    background-color: var(--darker-background-secondary-color);
+}
+
+.login__form label,p {
+    align-self: start;
+    margin-left: 4rem;
+    margin-top: 30px;
+}
+
+
+.login__form >input,button {
+    height: 2.3rem;
+    width: 80%;
+    border-radius: 3rem;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+}
+
+.login .login__banner {
+    background : url(./image/Logo.png) top center / cover no-repeat;
+    width: 30%;
+    height: 30%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.Text{
+    position: relative;
+    left: -12%;
+    top: 100%;
+    width: 680px ;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.Text .Text1{
+    color: rgb(18, 18, 114);
+    line-height: 5px;
+}
+.Text .Text2{
+    color: rgb(216, 144, 10);
+
+}
+.Text .Text3{
+    color: rgb(189, 7, 7);
+    line-height: 5px;
+}
+
